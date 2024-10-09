@@ -1,11 +1,11 @@
-import React from 'react'
+
 import { header } from './mockData/data'
 
 
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
 const navbar = () => {
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = 'useState'(false);
   return (
    <nav className=''>
     <div className=" flex  items-center py-8 bg-white justify-between  ">
