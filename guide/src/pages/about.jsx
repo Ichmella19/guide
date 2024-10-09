@@ -1,8 +1,11 @@
+import { section } from 'framer-motion/client'
 import React from 'react'
 
 const about = () => {
   return (
-    <div>about</div>
+   <section className='flex flex-col px-8'>
+        <p>Vintage Double Decker Bus Tour & Thames River Cruise</p>
+   </section>
   )
 }
 
