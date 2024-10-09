@@ -1,27 +1,34 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Footer from './composants/footer';
 import Navbar from './composants/navbar';
 import Home from './pages/Home';
 
+// Crée un composant séparé pour gérer la logique de la barre de navigation
+function MainApp() {
+  const location = useLocation(); // Utilisation correcte ici
 
+  return (
+    <div>
+      {/* Affiche la Navbar sauf si on est sur la page principale */}
+      {location.pathname !== "/" && <Navbar />}
 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* Ajoute d'autres routes ici */}
+      </Routes>
 
+      <Footer />
+    </div>
+  );
+}
 
-
+// Le composant AppWrapper qui contient le Router
 function App() {
-    return (
-      <Router>
-        <Navbar/>
-        <Routes>
-            <Route path="/" exact element={<Home/>} />
-            
-          
-          
-        </Routes> 
-        <Footer/>
-      </Router>
-    );
-  }
-  
- 
+  return (
+    <Router>
+      <MainApp />
+    </Router>
+  );
+}
+
 export default App;
