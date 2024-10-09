@@ -1,6 +1,6 @@
 
 
-const footer = () => {
+const Footer = () => {
   return (
    <section>
     <div className='bg-[#13253F] md:flex flex-wrap justify-center py-10 '>
@@ -82,4 +82,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

@@ -4,7 +4,7 @@ import { header } from './mockData/data'
 
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
-const navbar = () => {
+const Navbar = () => {
     const [open, setOpen] = 'useState'(false);
   return (
    <nav className=''>
@@ -51,4 +51,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

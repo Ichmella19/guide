@@ -1,9 +1,10 @@
 const Home = () => {
     return ( 
-        <section className="bg-[url('assets\F1.png')]" >
-            <div>
-                <h1>Hello World</h1>
-            </div>
+        <section className="bg-black py-10" >
+           <h1>Hello</h1>
+           <h1>Hello</h1>
+           <h1>Hello</h1>
+           <h1>Hello</h1>
         </section>
      );
 }
