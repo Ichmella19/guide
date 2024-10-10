@@ -1,5 +1,5 @@
- 
-import React from 'react'
+
+
 import { FaStar } from "react-icons/fa";
 import { TbPointFilled } from "react-icons/tb";
 const about = () => {
@@ -54,7 +54,7 @@ const about = () => {
     <p className='text-3xl font-bold class'>Vintage Double Decker Bus Tour & </p>
         <p className='text-3xl font-bold mt-1 class'>Thames River Cruise</p>
         <div className='flex mt-3'>
-            <img src="../src/assets/vector.png" alt=""className='md:w-4 w-6 h-6' />
+            <img src="../public/assets/vector.png" alt=""className='md:w-4 w-6 h-6' />
             <p className='ml-2 nav'>Gothenburg</p>
             <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
             <FaStar />
@@ -247,7 +247,7 @@ const about = () => {
                 <h1 className='font-bold nav text-xl mx-52  mt-6'>Meeting point address</h1>
                 <div className='flex mt-2 mx-52'>
                       <TbPointFilled className=' text-4xl'/>
-                      <p className='nav ml-5 mt-1'>Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). It's opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag</p>
+                      <p className='nav ml-5 mt-1'>Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). Its opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag</p>
                       </div>
                       <div className='mx-52 mt-6  '>
                         <p className='text-[#7BBCB0] font-medium  '>Open With Google Maps</p>
@@ -270,7 +270,7 @@ const about = () => {
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   <img 
-    src="../src/assets/vactor1.png" 
+    src="../assets/vactor1.png" 
     alt="Calendrier" 
     className="absolute right-[20%] w-5 h-5 mt-5"
   />

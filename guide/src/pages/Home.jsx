@@ -24,7 +24,7 @@ const Home = () => {
           id:3,
           title:"Date",
           description:"Pick a date",
-          image:'/assets/Vector2.png'
+          image:'/assets/Group.png'
   
       } 
    ]

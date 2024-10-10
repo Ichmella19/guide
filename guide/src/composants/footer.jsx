@@ -1,6 +1,5 @@
 
 
-
 const Footer = () => {
   return (
    <section>
@@ -72,10 +71,10 @@ const Footer = () => {
    <div className='bg-slate-950 md:flex md:justify-between justify-center p-6 pb-1'>
         <p className='text-white nav font-medium px-10 text-lg'>Copyright 2021 Tour Guide. All Rights Reserved</p>
         <div className='flex md:gap-2 gap-5 mt-4 md:mt-0 px-10 md:px-0'>
-          <img src="../src/assets/F27.png" alt="" />
-          <img src="../src/assets/F26.png" alt="" />
-          <img src="../src/assets/F25.png" alt="" />
-          <img src="../src/assets/F24.png" alt="" />
+          <img src="../assets/F27.png" alt="" />
+          <img src="../assets/F26.png" alt="" />
+          <img src="../assets/F25.png" alt="" />
+          <img src="../assets/F24.png" alt="" />
         </div>
    </div>
    </section>

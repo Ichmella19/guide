@@ -3,6 +3,7 @@ import Footer from './composants/footer';
 import Navbar from './composants/navbar';
 import About from './composants/about';
 import Home from './pages/Home';
+import About from './pages/about';
 
 // Crée un composant séparé pour gérer la logique de la barre de navigation
 function MainApp() {
