@@ -8,17 +8,18 @@ const Footer = () => {
     <div className="flex flex-col px-20  ">
       <form className="  rounded-lg shadow-sm nav">
         <p className='text-white nav font-medium text-lg'>Langage</p>
-        <select
-          id="country"
-          className=" p-3 mt-2 px-10 flex border border-gray-300 bg-transparent text-white rounded-lg shadow-sm focus:outline-none focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F]"
-        >
-          
-           <img src="../src/assets/F36.png" alt="" />
-          <option value="" className='hover:bg-[#13253F]'>English (UK) </option>
-          <option value="France" className='text-black'>France</option>
-          <option value="Germany " className='text-black'>Benin</option>
-        
-        </select>
+                <div>
+          <img src="../src/assets/F36.png" alt="Description de l'image" className="mb-2" />
+          <select
+            id="country"
+            className="p-3 mt-2 px-10 flex border border-gray-300 bg-transparent text-white rounded-lg shadow-sm focus:outline-none focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F]"
+          >
+            <option value="" className='hover:bg-[#13253F]'>English (UK)</option>
+            <option value="France" className='text-black'>France</option>
+            <option value="Germany" className='text-black'>Benin</option>
+          </select>
+              </div>
+
         <p className='text-white nav font-medium text-lg mt-3'>Currency</p>
         <select
           id="country"

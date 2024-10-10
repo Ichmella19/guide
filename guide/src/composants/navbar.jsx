@@ -1,14 +1,14 @@
-
+import { useState } from 'react';
 import { header } from './mockData/data'
 
-import { useState } from 'react'
+
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
-const Navbar = () => {
+const navbar = () => {
     const [open, setOpen] = useState(false);
   return (
    <nav className=''>
-    <div className=" flex  items-center pt-4 bg-white justify-between  ">
+    <div className=" flex  items-center py-8 bg-white justify-between  ">
         <div className='px-5 '>
             <p className='clas font-semibold text-2xl mb-10'>tour guide</p>
         </div>
