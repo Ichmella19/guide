@@ -54,7 +54,7 @@ const about = () => {
     <p className='text-3xl font-bold class'>Vintage Double Decker Bus Tour & </p>
         <p className='text-3xl font-bold mt-1 class'>Thames River Cruise</p>
         <div className='flex mt-3'>
-            <img src="../src/assets/vector.png" alt=""className='md:w-4 w-6 h-6' />
+            <img src="../public/assets/vector.png" alt=""className='md:w-4 w-6 h-6' />
             <p className='ml-2 nav'>Gothenburg</p>
             <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
             <FaStar />
@@ -269,7 +269,7 @@ const about = () => {
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   <img 
-    src="../src/assets/vactor1.png" 
+    src="../assets/vactor1.png" 
     alt="Calendrier" 
     className="absolute right-[20%] w-5 h-5 mt-5"
   />
