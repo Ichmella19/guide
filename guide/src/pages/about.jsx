@@ -6,42 +6,42 @@ const about = () => {
   const blogs = [
     {
         id:1,
-        image:'./src/assets/groupe13.png',
+        image:'./public/assets/groupe13.png',
         titre:"Free cancellation",
         description:"Cancel up to 24 hours in advance to receive a full refund",
 
     }, 
     {
       id:2,
-      image:'./src/assets/groupe15.png',
+      image:'./public/assets/groupe15.png',
       titre:"Mobile ticketing",
       description:"Use your phone or print your voucher",
 
   },
   {
     id:3,
-    image:'./src/assets/groupe14.png',
+    image:'./public/assets/groupe14.png',
     titre:"Instant confirmation",
     description:"Don’t wait for the confirmation!",
 
 },
 {
   id:4,
-  image:'./src/assets/groupe16.png',
+  image:'./public/assets/groupe16.png',
   titre:"Health precautions",
   description:"Special health and safety measures apply. Learn more",
 
 },
 {
   id:5,
-  image:'./src/assets/groupe17.png',
+  image:'./public/assets/groupe17.png',
   titre:"Duration 3.5 hours",
   description:"Check availability to see starting times.",
 
 },
 {
   id:6,
-  image:'./src/assets/groupe18.png',
+  image:'./public/assets/groupe18.png',
   titre:"Live tour guide in English",
   description:"English",
 
@@ -70,15 +70,15 @@ const about = () => {
             <section className='flex flex-col w-[60%]'>
                 <div className='flex flex-col px-48'>
                     <div>
-                    <img src="../src/assets/F40.png" alt=""className='cursor-pointer hover:scale-95 transition-all duration-300' />
+                    <img src="../public/assets/F40.png" alt=""className='cursor-pointer hover:scale-95 transition-all duration-300' />
                     </div>
-                    <div className='md:flex flex-wrap  mt-3 mb-8 mr-[8%]  justify-center gap-10 md:gap-0 cursor-pointer hover:scale-95 transition-all duration-300'>
-                    <img src="../src/assets/F41.png" alt=""className='' />
-                    <img src="../src/assets/F42.png" alt=""className='ml-2' />
-                    <img src="../src/assets/F43.png" alt=""className='ml-2' />
-                    <img src="../src/assets/F45.png" alt=""className='ml-2' />
-                    <img src="../src/assets/F46.png" alt=""className='ml-2' />
-                    <img src="../src/assets/F47.png" alt=""className='ml-2' />
+                    <div className='md:flex flex-wrap  mt-3 mb-8 md:mr-[8%] 2xl:  justify-center gap-10 md:gap-0 cursor-pointer hover:scale-95 transition-all duration-300'>
+                    <img src="../public/assets/F41.png" alt=""className='' />
+                    <img src="../public/assets/F42.png" alt=""className='ml-2' />
+                    <img src="../public/assets/F43.png" alt=""className='ml-2' />
+                    <img src="../public/assets/F45.png" alt=""className='ml-2' />
+                    <img src="../public/assets/F46.png" alt=""className='ml-2' />
+                    <img src="../public/assets/F47.png" alt=""className='ml-2' />
                     </div>
                 </div>
                 <div className='bg-gray-100 mx-48 p-4 px-6 mb-7 w-[63%] cursor-pointer'>
@@ -253,7 +253,7 @@ const about = () => {
                         <p className='text-[#7BBCB0] font-medium  '>Open With Google Maps</p>
                       </div>
                       <div className='mx-52 mt-6 mb-6 border-b '>
-                        <img src="../src/assets/rectangle.png" alt="" />
+                        <img src="../public/assets/rectangle.png" alt="" />
                         <br />
                       </div>
             </section>
@@ -265,7 +265,7 @@ const about = () => {
     type="text" 
     placeholder="10/12/2021"
     className="p-3 w-[100%]  bg-gray-100 rounded-sm text-black shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] "
-   
+    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   <img 
@@ -280,11 +280,11 @@ const about = () => {
     type="text" 
     placeholder="10/12/2021"
     className="p-3 w-[100%]  bg-gray-100 rounded-sm shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] text-gray-900"
-    
+    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   <img 
-    src="../src/assets/vactor1.png" 
+    src="../public/assets/vactor1.png" 
     alt="Calendrier" 
     className="absolute right-[20%] w-5 h-5 mt-5"
   />
@@ -298,7 +298,7 @@ const about = () => {
     
   />
   <img 
-    src="../src/assets/vector2.png" 
+    src="../public/assets/vector2.png" 
     alt="Calendrier" 
     className="absolute right-[20%] w-4 h-4 mt-5"
   />
@@ -314,7 +314,7 @@ const about = () => {
     type="text" 
     placeholder="Save to wishlist"
     className="p-3 w-[100%] text-center bg-white border-2 rounded-sm shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] text-gray-900"
-    
+    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   
@@ -324,7 +324,7 @@ const about = () => {
     type="text" 
     placeholder="Share the activity"
     className="p-3 w-[100%] text-center bg-white border-2 mb-4 rounded-sm shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] text-gray-900"
-    
+    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
 
