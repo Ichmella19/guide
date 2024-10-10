@@ -123,10 +123,47 @@ const Home = () => {
             </div>
             <div className='relative flex justify-center mx-auto'>
                <img className='' src="assets/F2.png" alt="Sapins" />
-               <div className=' p-4 flex flex-wrap justify-center gap-x-8 gap-y-2 lg:gap-20 absolute -bottom-4  bg-white rounded '>
-
+               <div className=' px-5 py-10 flex flex-wrap justify-center gap-x-8 gap-y-4 md:gap-x-10 lg:gap-20 xl:gap-32 absolute -bottom-96 md:-bottom-44 xl:-bottom-36  bg-white rounded '>
+                  <div className='text-center lg:text-left volkhov'>
+                     <h1 className=' text-3xl xl:text-4xl text-[#1C2B38] font-bold'>Alaska</h1>
+                     <p className='text-[#778088] mulish w-44 lg:w-96 text-xs lg:text-sm'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                  </div>
+                  <div className='flex flex-wrap justify-center gap-5 mulish text-xs font-semibold w-68 lg:w-96'>
+                     <div className='bg-white rounded shadow flex p-2'>
+                        <img className='h-4' src="/assets/bus.png" alt="Bus" />
+                        <h1 className='text-[#D176E0] pl-1'>Public Transportations</h1>
+                     </div>
+                     <div className='bg-white rounded shadow flex p-2'>
+                        <img className='h-4' src="/assets/explore.png" alt="Bus" />
+                        <h1 className='text-[#7BBCB0] pl-1'>Nature & Adventure</h1>
+                     </div>
+                     <div className='bg-white rounded shadow flex p-2'>
+                        <img className='h-4' src="/assets/taxi.png" alt="Bus" />
+                        <h1 className='text-[#E4B613] pl-1'>Private Transportations</h1>
+                     </div>
+                     <div className='bg-white rounded shadow flex p-2'>
+                        <img className='h-4' src="/assets/business.png" alt="Bus" />
+                        <h1 className='text-[#FC3131] pl-1'>Business Tours </h1>
+                     </div>
+                     <div className='bg-white rounded shadow flex p-2'>
+                        <img className='h-4' src="/assets/local_visit.png" alt="Bus" />
+                        <h1 className='text-[#5C9BDE] pl-1'>Local Visit</h1>
+                     </div>
+                  </div>
                </div>
-               
+            </div>
+            <div className='flex flex-wrap justify-center gap-5 mt-44'>
+               <div className='p-2 bg-white rounded shadow'>
+                  <img src="/assets/F62.png" alt="Fleuve" />
+                  <div className='pt-2'>
+                     <p className='volkhovv font-semibold  text-[#1C2B38] text-xs w-32'>Alaska: Westminster to Greenwich River Thames</p>
+                     <div className='flex'>
+                        <img className=' py-2' src="/assets/Clock.png" alt="Clock" />
+                        <h1 className='mulish text-[#495560] pl-1 text-sm pt-2'>Duration 2 Hours</h1>
+                     </div>
+                     </div>
+               </div>
+
             </div>
          </div>
       </section>
