@@ -51,18 +51,18 @@ const Footer = () => {
     <div className='flex flex-col nav text-white px-20 '>
     <p className='font-medium text-lg'>Payment Methods possible</p>
       <div className='flex mt-4 gap-1'>
-        <img src="../src/assets/F28.png" alt="" />
-        <img src="../src/assets/F29.png" alt="" />
-        <img src="../src/assets/F30.png" alt="" />
-        <img src="../src/assets/F31.png" alt="" />
-        <img src="../src/assets/F32.png" alt="" />
+        <img src="../public/assets/F28.png" alt="" />
+        <img src="../public/assets/F29.png" alt="" />
+        <img src="../public/assets/F30.png" alt="" />
+        <img src="../public/assets/F31.png" alt="" />
+        <img src="../public/assets/F32.png" alt="" />
       </div>
       <div className='flex mt-4 gap-1'>
-        <img src="../src/assets/F33.png" alt="" />
-        <img src="../src/assets/F34.png" alt="" />
-        <img src="../src/assets/F73.png" alt="" />
-        <img src="../src/assets/F35.png" alt="" />
-        <img src="../src/assets/F36.png" alt="" />
+        <img src="../public/assets/F33.png" alt="" />
+        <img src="../public/assets/F34.png" alt="" />
+        <img src="../public/assets/F73.png" alt="" />
+        <img src="../public/assets/F35.png" alt="" />
+        <img src="../public/assets/F36.png" alt="" />
       </div>
       <p className='font-medium text-lg mt-3'>Company</p>
       <p className='mt-3'>Become a Tour guide for Us</p>
