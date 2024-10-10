@@ -8,7 +8,7 @@ const navbar = () => {
     const [open, setOpen] = useState(false);
   return (
    <nav className=''>
-    <div className=" flex  items-center py-8 bg-white justify-between  ">
+    <div className=" flex  items-center pt-4 bg-white justify-between  ">
         <div className='px-5 '>
             <p className='clas font-semibold text-2xl mb-10'>tour guide</p>
         </div>
@@ -31,14 +31,14 @@ const navbar = () => {
       </div>
       <div>
           <button className='  bg-[#FFDA32] mr-9  rounded-[3px] gap-10 mb-10 hover:scale-95 transition-all duration-300 cursor-pointer'>
-              <p className='p-2 px-7 nav font-semibold'>Sign Up</p>
+              <p className='p-2 px-7 nav font-semibold'>Sign Up </p>
           </button>
        </div>
         </div>
     
         <div className='md:hidden flex ' onClick={() => 
            setOpen(!open)}>
-         <MdMenu className='text-5xl mb-8'/>
+         <MdMenu className='text-5xl mb-8 '/>
         
         </div>
     </div>

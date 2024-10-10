@@ -4,13 +4,12 @@
 const Footer = () => {
   return (
    <section>
-    <div className='bg-[#13253F] md:flex flex-wrap justify-center py-10 '>
+    <div className='bg-[#13253F] md:flex flex-wrap justify-between py-10 px-20'>
     
     <div className="flex flex-col px-20  ">
       <form className="  rounded-lg shadow-sm nav">
         <p className='text-white nav font-medium text-lg'>Langage</p>
                 <div>
-          <img src="../src/assets/F36.png" alt="Description de l'image" className="mb-2" />
           <select
             id="country"
             className="p-3 mt-2 px-10 flex border border-gray-300 bg-transparent text-white rounded-lg shadow-sm focus:outline-none focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F]"
