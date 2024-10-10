@@ -256,6 +256,7 @@ const about = () => {
                         <img src="../public/assets/rectangle.png" alt="" />
                         <br />
                       </div>
+                     
             </section>
             <section className='shadow-xl bg-white w-[25%] rounded-lg border-2 h-[1%] border-white flex flex-col cursor-pointer hover:scale-95 transition-all duration-300'>
                 <p className='shadow w-full h-14 px-8 pt-4 nav font-bold text-xl'>Booking</p>
@@ -331,6 +332,308 @@ const about = () => {
 </div>
             </section>
         </section> 
+        <p className='mx-52 nav font-bold text-2xl'>Related tours in Today</p>
+                     <div className='flex mx-52 gap-12 cursor-pointer hover:scale-95 duration-300 transition-all border-b mb-5'>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F6.png" alt="" />
+                            <p className=' nav text-lg ml-6 font-semibold'>Alaska: Westminster to </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Greenwich River Thames</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F5.png" alt="" />
+                            <p className=' nav text-lg ml-6 font-semibold'>Alaska: Vintage Double   </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Decker Bus Tour & Thames</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F4.png" alt="" />
+                            <p className=' nav text-lg ml-6 font-semibold'>Alaska: Magic of London  </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Tour with Afternoon Tea at</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F3.png" alt="" />
+                            <p className=' nav text-lg ml-6  font-semibold'>Alaska: Magic of London  </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Tour with Afternoon Tea at</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                     </div>
+                     <p className='mx-52 nav font-bold text-2xl'>Related tours in London</p>
+                     <div className='flex mx-52 gap-12 cursor-pointer hover:scale-95 duration-300 transition-all border-b mb-5'>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F6.png" alt="" />
+                            <p className=' nav text-lg ml-6 font-semibold'>Alaska: Westminster to </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Greenwich River Thames</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F5.png" alt="" />
+                            <p className=' nav text-lg ml-6 font-semibold'>Alaska: Vintage Double   </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Decker Bus Tour & Thames</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F4.png" alt="" />
+                            <p className=' nav text-lg ml-6 font-semibold'>Alaska: Magic of London  </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Tour with Afternoon Tea at</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                        <div className='bg-white shadow-xl w-[25%] justify-center flex flex-col mb-8 mt-5'>
+                            <img src="../public/assets/F3.png" alt="" />
+                            <p className=' nav text-lg ml-6  font-semibold'>Alaska: Magic of London  </p>
+                            <p className='nav text-lg ml-6 font-semibold'>Tour with Afternoon Tea at</p>
+                            <div className='flex mt-3 ml-6'>
+                                <img src="../public/assets/elcy.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Duration 2 hours</p>
+                            </div>
+                            <div className='flex mt-1 ml-6'>
+                                <img src="../public/assets/el.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Transport Facility</p>
+                            </div>
+                            <div className='flex mt-1 border-b mb-4 ml-6'>
+                                <img src="../public/assets/elc.png" alt="" className='w-4 h-4 mt-1'/>
+                                <p className='nav ml-4'>Family Plan</p>
+                            </div>
+                            <div className='flex'>
+                              <div className='flex flex-col'>
+                              <div  className='text-[#FFA432] flex ml-5 mt-1 text-lg'>
+                                 <FaStar />
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                  <FaStar className='ml-1'/>
+                                   <FaStar className='ml-1 text-transparent text-gray-400'/>
+                              </div>
+                              <p className='ml-6 mt-2 nav'>584 reviews</p>
+                              </div>
+                          
+                              <div className='flex flex-col ml-6'>
+                                  <p className='text-[#7BBCB0] nav text-2xl font-bold'>$35.00</p>
+                                  
+                                  <p className='nav'>per person</p>
+                                  
+                               
+                              </div>
+                            </div>
+                        </div>
+                     </div>
    </section>
    
   )
