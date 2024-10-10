@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Footer from './composants/footer';
 import Navbar from './composants/navbar';
+import About from './composants/about';
 import Home from './pages/Home';
 
 // Crée un composant séparé pour gérer la logique de la barre de navigation
@@ -14,7 +15,7 @@ function MainApp() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Ajoute d'autres routes ici */}
+        <Route path="/about" element={<About />} />
       </Routes>
 
       <Footer />

@@ -1,24 +1,25 @@
 
 
+
 const Footer = () => {
   return (
    <section>
-    <div className='bg-[#13253F] md:flex flex-wrap justify-center py-10 '>
+    <div className='bg-[#13253F] md:flex flex-wrap justify-between py-10 px-20'>
     
     <div className="flex flex-col px-20  ">
       <form className="  rounded-lg shadow-sm nav">
         <p className='text-white nav font-medium text-lg'>Langage</p>
-        <select
-          id="country"
-          className=" p-3 mt-2 px-10 flex border border-gray-300 bg-transparent text-white rounded-lg shadow-sm focus:outline-none focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F]"
-        >
-          
-           <img src="../src/assets/F36.png" alt="" />
-          <option value="" className='hover:bg-[#13253F]'>English (UK) </option>
-          <option value="France" className='text-black'>France</option>
-          <option value="Germany " className='text-black'>Benin</option>
-        
-        </select>
+                <div>
+          <select
+            id="country"
+            className="p-3 mt-2 px-10 flex border border-gray-300 bg-transparent text-white rounded-lg shadow-sm focus:outline-none focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F]"
+          >
+            <option value="" className='hover:bg-[#13253F]'>English (UK)</option>
+            <option value="France" className='text-black'>France</option>
+            <option value="Germany" className='text-black'>Benin</option>
+          </select>
+              </div>
+
         <p className='text-white nav font-medium text-lg mt-3'>Currency</p>
         <select
           id="country"
@@ -50,18 +51,18 @@ const Footer = () => {
     <div className='flex flex-col nav text-white px-20 '>
     <p className='font-medium text-lg'>Payment Methods possible</p>
       <div className='flex mt-4 gap-1'>
-        <img src="../src/assets/F28.png" alt="" />
-        <img src="../src/assets/F29.png" alt="" />
-        <img src="../src/assets/F30.png" alt="" />
-        <img src="../src/assets/F31.png" alt="" />
-        <img src="../src/assets/F32.png" alt="" />
+        <img src="../public/assets/F28.png" alt="" />
+        <img src="../public/assets/F29.png" alt="" />
+        <img src="../public/assets/F30.png" alt="" />
+        <img src="../public/assets/F31.png" alt="" />
+        <img src="../public/assets/F32.png" alt="" />
       </div>
       <div className='flex mt-4 gap-1'>
-        <img src="../src/assets/F33.png" alt="" />
-        <img src="../src/assets/F34.png" alt="" />
-        <img src="../src/assets/F73.png" alt="" />
-        <img src="../src/assets/F35.png" alt="" />
-        <img src="../src/assets/F36.png" alt="" />
+        <img src="../public/assets/F33.png" alt="" />
+        <img src="../public/assets/F34.png" alt="" />
+        <img src="../public/assets/F73.png" alt="" />
+        <img src="../public/assets/F35.png" alt="" />
+        <img src="../public/assets/F36.png" alt="" />
       </div>
       <p className='font-medium text-lg mt-3'>Company</p>
       <p className='mt-3'>Become a Tour guide for Us</p>
