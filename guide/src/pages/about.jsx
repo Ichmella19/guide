@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 import { FaStar } from "react-icons/fa";
 import { TbPointFilled } from "react-icons/tb";
 const about = () => {
@@ -247,7 +247,7 @@ const about = () => {
                 <h1 className='font-bold nav text-xl mx-52  mt-6'>Meeting point address</h1>
                 <div className='flex mt-2 mx-52'>
                       <TbPointFilled className=' text-4xl'/>
-                      <p className='nav ml-5 mt-1'>Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). It's opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag</p>
+                      <p className='nav ml-5 mt-1'>Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). Its opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag</p>
                       </div>
                       <div className='mx-52 mt-6  '>
                         <p className='text-[#7BBCB0] font-medium  '>Open With Google Maps</p>
@@ -265,7 +265,7 @@ const about = () => {
     type="text" 
     placeholder="10/12/2021"
     className="p-3 w-[100%]  bg-gray-100 rounded-sm text-black shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] "
-    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
+   
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   <img 
@@ -280,7 +280,7 @@ const about = () => {
     type="text" 
     placeholder="10/12/2021"
     className="p-3 w-[100%]  bg-gray-100 rounded-sm shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] text-gray-900"
-    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
+    
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   <img 
@@ -314,7 +314,7 @@ const about = () => {
     type="text" 
     placeholder="Save to wishlist"
     className="p-3 w-[100%] text-center bg-white border-2 rounded-sm shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] text-gray-900"
-    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
+    
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
   
@@ -324,7 +324,7 @@ const about = () => {
     type="text" 
     placeholder="Share the activity"
     className="p-3 w-[100%] text-center bg-white border-2 mb-4 rounded-sm shadow-sm focus:outline-none mt-3 cursor-pointer focus:border-[#13253F] focus:ring-2 focus:ring-[#13253F] text-gray-900"
-    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9/]/g, '')}  // Permet uniquement les chiffres et "/"
+    
     maxLength={10}  // Limite à 10 caractères pour correspondre à JJ/MM/AAAA
   />
 
