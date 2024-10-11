@@ -3,7 +3,7 @@ import { header } from '../composants/mockData/data.js'
 import { useState } from 'react'
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from '../composants/ResponsiveMenu';
-import { li } from 'framer-motion/m';
+
 import CityComponent from '../composants/CityComponent.jsx';
 const Home = () => {
    const blogs = [
