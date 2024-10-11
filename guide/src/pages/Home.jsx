@@ -3,8 +3,6 @@ import { header } from '../composants/mockData/data.js'
 import { useState } from 'react'
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from '../composants/ResponsiveMenu';
-
-import CityComponent from '../composants/CityComponent.jsx';
 const Home = () => {
    const blogs = [
       {
@@ -26,59 +24,10 @@ const Home = () => {
           id:3,
           title:"Date",
           description:"Pick a date",
-          image:'/assets/Group.png'
+          image:'/assets/Vector2.png'
   
       } 
    ]
-
-   const [focusCity, setFocusCity] = useState(1)
-
-   const handleCity = (id) => {
-      setFocusCity(id)
-   }
-
-   const city = [
-      {
-          id:1,
-          title:"New York",
-      },
-      {
-         id:2,
-         title:"California",
-      },
-      {
-         id:3,
-         title:"Alaska",
-      },
-      {
-         id:4,
-         title:"Dubai",
-      },
-      {
-         id:5,
-         title:"London",
-      },
-      {
-         id:6,
-         title:"Tokyo",
-      },
-      {
-         id:7,
-         title:"Delhi",
-      },
-   ]
-
-   const CustomTab =()=> {
-      const citi = city.filter(item=>item.id === focusCity)
-      console.log(citi[0])
-      return (
-         <div className='text-center lg:text-left volkhov'>
-            <h1 className=' text-3xl xl:text-4xl text-[#1C2B38] font-bold'>{citi[0].title}</h1>
-            <p className='text-[#778088] mulish w-44 lg:w-96 text-xs lg:text-sm'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-         </div>
-      )
-   }
-
    const [open, setOpen] = useState(false);
     return ( 
       <section>
@@ -162,16 +111,23 @@ const Home = () => {
             </div>
             <div className='pb-6 pt-8 '>
                <ul className='flex flex-wrap justify-center gap-5 2xl:gap-7 mulish text-[#495560] font-semibold '>
-                  {
-                     city.map(item => <CityComponent key={item.id} title={item.title} id={item.id} focusCity={focusCity} handleCity={handleCity} />
-                     )
-                  }
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0]'><a href="#">New York</a></li>
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0]'><a href="#">California</a></li>
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0] text-white bg-[#7BBCB0]'><a href="#">Alaska</a></li>
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0]'><a href="#">Sidney</a></li>
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0]'><a href="#">Dubai</a></li>
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0]'><a href="#">London</a></li>
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0]'><a href="#">Tokyo</a></li>
+                  <li className='px-8 py-2 rounded-[52px] border-2 border-[#7BBCB0]'><a href="#">Delhi</a></li>
                </ul>
             </div>
             <div className='relative flex justify-center mx-auto'>
                <img className='' src="assets/F2.png" alt="Sapins" />
                <div className=' px-5 py-10 flex flex-wrap justify-center gap-x-8 gap-y-4 md:gap-x-10 lg:gap-20 xl:gap-32 absolute -bottom-96 md:-bottom-44 xl:-bottom-36  bg-white rounded '>
-                  <CustomTab />
+                  <div className='text-center lg:text-left volkhov'>
+                     <h1 className=' text-3xl xl:text-4xl text-[#1C2B38] font-bold'>Alaska</h1>
+                     <p className='text-[#778088] mulish w-44 lg:w-96 text-xs lg:text-sm'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                  </div>
                   <div className='flex flex-wrap justify-center gap-5 mulish text-xs font-semibold w-68 lg:w-96'>
                      <div className='bg-white rounded shadow flex p-2'>
                         <img className='h-4' src="/assets/bus.png" alt="Bus" />
