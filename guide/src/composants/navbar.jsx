@@ -1,7 +1,7 @@
-import { useState } from 'react';
+
 import { header } from './mockData/data'
 
-
+import { useState } from 'react'
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
 const Navbar = () => {

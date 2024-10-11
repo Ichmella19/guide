@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Footer from './composants/footer';
 import Navbar from './composants/navbar';
+
 import Home from './pages/Home';
 import About from './pages/about';
 
@@ -15,7 +16,7 @@ function MainApp() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/About" element={<About />} />
       </Routes>
 
       <Footer />
