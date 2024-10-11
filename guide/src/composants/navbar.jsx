@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 
 import { header } from './mockData/data'
 
 import { useState } from 'react'
-=======
-import { useState } from 'react';
-import { header } from './mockData/data'
-
-
->>>>>>> 5bac6574d24b01eda02567811bb4104f563c4637
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
 const Navbar = () => {
