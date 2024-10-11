@@ -31,7 +31,7 @@ const Home = () => {
       } 
    ]
 
-   const [focusCity, setFocusCity] = useState(1)
+   const [focusCity, setFocusCity] = useState(3)
 
    const handleCity = (id) => {
       setFocusCity(id)
