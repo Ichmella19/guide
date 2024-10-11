@@ -9,7 +9,7 @@ const Home = () => {
           id:1,
           title:"Location",
           description:"Search For A Destination",
-          image:'/assets/Vector.png'
+          image:'/assets/Vactor1.png'
          
   
       },
